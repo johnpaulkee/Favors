@@ -1,0 +1,39 @@
+<ion-pane ng-controller="MainJobsController" >
+    <div class="bar bar-header sidenavstyle">
+    <button class="button icon-left ion-chevron-left button-positive" ng-click="goToHome()">
+        Back
+      </button>
+      <h1 class="title">Create a Job</h1>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+	
+	<div class="list">
+        <label class="item item-input center">
+          <input type="text" ng-model="title" placeholder="Title">
+        </label>
+        <label class="item item-input center">
+          <input type="text" ng-model="description" placeholder="Description">
+        </label>
+        <label class="item item-input center">
+          <input type="text" ng-model="tags" placeholder="Tags, Comma Delimited">
+        </label>
+        <label class="item item-input center">
+          <input type="text" ng-model="spotsAvailable" placeholder="Spots">
+        </label>
+        <br> 
+        <center>
+    
+
+        <button class="button button-positive" ng-click="createJob(title, description, tags, spotsAvailable)" style="width:70%">
+         Create New Job
+        </button>
+        </center>
+      </div>
+</ion-pane>

@@ -1,0 +1,32 @@
+<ion-pane ng-controller="MainCardsController">
+  
+
+    <div class="bar bar-header sidenavstyle">
+      <button class="button icon-left ion-chevron-left  button-positive" ng-click="goToHome()">
+        Back
+      </button>
+      <h1 class="title">Search for Jobs</h1>
+    </div>
+
+
+	     <td-cards>
+              <td-card id="td-card" ng-repeat="card in cards" on-destroy="cardDestroyed($index)"
+              on-swipe-left="cardSwipedLeft($index)" on-swipe-right="cardSwipedRight($index, card.jobId)"
+              on-partial-swipe="cardPartialSwipe(amt)">
+                  <div class="title">
+                      <h1>{{card.title}}</h1>
+                  </div>
+                  <div class="image">
+                      <div class="no-text overlayBox"><div class="noBox boxed"><center>No!</center></div></div>
+                      <img ng-src="{{ card.image }}">
+
+                      <div class="yes-text overlayBox"><div class="yesBox boxed" id="centerMe"><center>Yes!</center></div></div>
+                  </div>
+                  <div>
+                       <h1>Spots Available: {{card.spotsAvailable}} </h1>
+
+                  </div>
+              </td-card>
+          </td-cards>
+</ion-pane>
+

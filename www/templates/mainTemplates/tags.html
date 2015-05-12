@@ -1,0 +1,46 @@
+<ion-pane ng-controller="TagsController">
+
+
+
+    <ion-content class="loginform" scroll="false">
+      
+       <div class="bar bar-header sidenavstyle">
+         <button class="button icon-left ion-chevron-left button-positive" ng-click="goToHome()">
+        Back
+      </button>
+         <h1 class="title">Tags</h1>
+       </div>
+
+       <br>
+       <br>
+
+      <center>
+      <div class="list">
+        <label class="item item-input center">
+          <input type="text" ng-model="tag" placeholder="Enter a tag for task">
+        </label>
+        <br> 
+        <button class="button button-positive" ng-click="addTag(tag)" style="width:70%">
+         Add Tag
+        </button>
+        <br>
+        
+        <div class="list card" style="width:70%">
+        <div class="item item-divider">
+          Active Tags
+        </div>
+          <div ng-repeat="tag in tags">
+            
+            <a class="item">
+              {{ tag }}
+              </a>
+          </div>
+          </div>
+
+        <button class="button button-positive" ng-click="go('cards')" style="width:70%">
+         Search by tags
+        </button>
+        </center>
+      </div>
+    </ion-content>
+</ion-pane>

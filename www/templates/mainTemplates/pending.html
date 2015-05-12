@@ -1,0 +1,44 @@
+
+<ion-pane ng-controller="MainPendingController" data-ng-init="init()">
+
+  <div class="bar bar-header sidenavstyle">
+    <button class="button icon-left ion-chevron-left button-positive" ng-click="goToHome()">
+        Back
+      </button>
+      <h1 class="title">Job Requests</h1>
+  </div>
+  
+  <ion-scroll direction="y">
+	  <br>
+    <br>
+
+
+    <div ng-repeat="job in jobs">
+      
+      <div class="list card">
+        
+        <div class="item">
+          <center><h1> {{ job.title }}</h1></center>
+        </div>
+
+        <div class="item item-body">
+          <li class="item item-checkbox item-checkbox-right">
+            Applicant 1
+            <label class="checkbox">
+              <input type="checkbox">
+            </label>
+          </li>
+
+         <li class="item item-checkbox item-checkbox-right">
+         Applicant 2
+         <label class="checkbox">
+           <input type="checkbox">
+         </label>
+        </li>
+      </div>
+    </div>
+    </div>
+
+    
+</ion-content>
+</ion-pane>

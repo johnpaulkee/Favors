@@ -1,0 +1,67 @@
+<ion-pane>
+     
+    <div ng-controller="SlideController">
+        <ion-content class="backgroundcolor" scroll="false">
+          <ion-slide-box active-slide="0" on-slide-changed="slideChanged(index)" show-pager="false">
+              <ion-slide class="slides">
+                <div class="slidecontent">
+                  <br>
+                  <br>
+                  <br>
+                  <img src="img/favorslogo.png" class="logo">
+                  <img src="img/favorsname.png" class="logo">
+                  <h3>Want to get something done, might as well do it with others!</h3>
+                </div>
+              </ion-slide>
+              <ion-slide class="slides">
+                <div class="slidecontent">
+                  <h1>How it works</h1>
+                  <br><br><br>
+                  <img src="img/formlogo.png" class="logo">
+                  <br><br><br>
+                  <h2>Fill in your details</h2>
+                </div>
+              </ion-slide>
+              <ion-slide class="slides">
+                <div class="slidecontent">
+                  <h1>Post your job</h1>
+                  <br><br>
+                  <img src="img/job.png" class="logo">
+                  <br><br>
+                  <h3>Post a job which you need help with. In return you will teach the performer how to do the job</h3>
+                  
+                </div>
+              </ion-slide>
+              <ion-slide class="slides">
+                <div class="slidecontent">
+                  <h1>Wait for people to join</h1>
+                  <br>
+                  <img src="img/approve.png" class="logo">
+                  <br>
+                  <h3>See who wants to learn from you and help you. Approve or decline their request</h3>
+                </div>
+              </ion-slide>
+              <ion-slide class="slides">
+                <div class="slidecontent">
+                  <h1>Get started with your job</h1>
+                  <br>
+                  <img src="img/shake.png" class="logo">
+                  <br>
+                  <h3>You're good to go. Assemble and finish your job!</h3>
+
+                  <button class="button button-positive" ng-click="goToSignup()">
+                    Get me started
+                  </button>
+                </div>
+              </ion-slide>
+            </ion-slide-box>
+          <div class="progress-bar">
+            <div class="increment"></div>
+          </div>
+        </ion-content>
+
+    </div>
+         
+</ion-pane>
+
+      

@@ -1,0 +1,30 @@
+<ion-pane>
+  <div ng-controller = "LoginController">
+
+     <ion-content class="loginform" scroll="false">
+      <center>
+        <img src="img/favorslogo.png" class="logo">
+        <img src="img/favorsname.png" class="logo">
+            
+      <div class="list">
+        <label class="item item-input center">
+          <input type="text" ng-model="email" placeholder="Email">
+        </label>
+        <label class="item item-input center">
+          <input type="text" ng-model="password" placeholder="Password">
+        </label>
+        
+        <br> 
+        <button class="button button-positive" ng-click="go('tutorial')">
+         Create an account
+        </button>
+
+        <button class="button button-positive" ng-click="loginUser(email, password)">
+
+         Sign in
+        </button>
+        </center>
+      </div>
+    </ion-content>
+  </div>
+</ion-pane>

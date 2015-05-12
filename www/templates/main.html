@@ -1,0 +1,43 @@
+ <ion-pane ng-controller="MainController">
+    <div class="bar bar-header sidenavstyle">
+      <h1 class="title">Dashboard</h1>
+    </div>
+            
+        <br>   <br>   <br>  
+
+
+<div class="row" style="padding-right:20px;">
+
+  <button class="col col-50 button index-buttona" ng-click="go('jobs')">
+    <h1 class = "index-font"><i class="icon"></i>Create Jobs</h1>
+  </button>
+   <button class="col col-50 button index-buttonb" ng-click="go('pending')">
+    <h1 class = "index-font"><i class="icon"></i>
+    Job Requests
+  </button></h1>
+
+</div>
+<div class="row" style="padding-right:20px;">
+<button class="col col-50 button index-buttonc" ng-click="go('tags')">
+  <h1 class = "index-font"><i class="icon"></i>
+  Filter
+  </h1>
+</button>
+<button class="col col-50 button index-buttond" ng-click="go('cards')">
+  <h1 class = "index-font"><i class="icon"></i>
+  Search</h1>
+</button>
+</div>
+<div class="row" style="padding-right:5px;">
+<button class="col col-100 button index-buttona" ng-click="go('myjobs')">
+  <h1 class = "index-font"><i class="icon"></i>
+  My Jobs
+  </h1>
+</button>
+</div>
+
+</div>
+
+</div>
+     
+ </ion-pane>

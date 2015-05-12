@@ -1,0 +1,295 @@
+
+
+.slider {
+  height: 100%;
+  text-align: center;
+}
+
+.scroll {
+  height:100%;
+}
+
+h1.form {
+  color:white;
+}
+.slider-slide {
+  color: white;
+  background-color: #fff;
+  text-align: center;
+
+  font-family: 'GeosansLight', sans-serif;
+  font-weight: 300;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.sidemenustyle {
+  background: #446CB3;
+  color:white;
+}
+
+.sidenavstyle {
+  background: #0c63ee;
+  font-family: 'GeosansLight', sans-serif;
+  color:white;
+  border-bottom: 0px;
+}
+.sidenavstyle h1{
+  font-family: 'GeosansLight', sans-serif;
+  color:white;
+  text-align: center !important;
+}
+
+.sidemenustyle h1, h2, h3, h4{
+  font-family: 'GeosansLight', sans-serif;
+  color:white;
+}
+
+.sidemenustyle a{
+  font-family: 'GeosansLight', sans-serif;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+  background-color: #446CB3;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: pink;
+}
+
+/* Empty. Add your own CSS if you like */
+.slides {
+  /*padding-top: 40px;*/
+  background-color: #2C3E50;
+  height: 100% !important;
+  color: white !important;
+  padding-top: 40px;
+}
+
+.top44 {
+  padding-top:44px;
+}
+.pane {
+  background-color: #2C3E50;
+}
+
+.loginform {
+  height: 100% !important;
+  background-color: #2C3E50;
+  padding-top: 100px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.slidecontent {
+  padding-bottom: 50px;
+  color: white !important;
+}
+
+.slidecontent h1, h2, h3{
+  color:white;
+  font-family: 'GeosansLight', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p, a {
+  font-family: 'GeosansLight';
+}
+
+
+.box {
+  height: 100% ;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background: #2C3E50;
+  position: absolute;
+  bottom: 0px;
+  z-index: 12;
+}
+.increment {
+  width: 5%;
+  height: 100%;
+  background: orange;
+  transition: all .75s; }
+
+.backgroundcolor {
+  background-color: #293E51;
+}
+
+.logo {
+  width: 52% !important;
+  padding-bottom: 20px;
+}
+
+/* Card styling */
+ .white {
+  color:white;
+ }
+td-cards {
+    display: block;
+}
+
+.index-buttona {
+  margin:5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height:185px;
+  /*background-color: #0c63ee;*/
+  background:transparent url("../img/create.png") no-repeat center;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.index-font {
+  color:white;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  top: 43px;
+  text-shadow:2px 2px black;
+}
+
+.index-buttonc {
+  margin:5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height:185px;
+  /*background-color: #0c63ee;*/
+  background:transparent url("../img/filter.png") no-repeat center;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+
+}
+
+.index-buttond {
+  margin:5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height:185px;
+  /*background-color: #0c63ee;*/
+  background:transparent url("../img/search.png") no-repeat center;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.index-buttonb {
+  margin:5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height:185px;
+  /*background-color: #0c63ee;*/
+  background:transparent url("../img/request.png") no-repeat center;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+}
+ 
+td-card {
+    position: absolute;
+    left: 50%;
+    margin: 80px 0 40px -150px;
+    width: 300px;
+    height: 450px;
+    border: 1px solid #999;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    background-color: rgb(255,255,255);
+}
+ 
+.td-card .title {
+    font-size: 15px;
+    padding: 15px;
+}
+ 
+td-card .image {
+    width: 100%;
+}
+
+td-card h1{
+  text-align: center !important;
+  
+}
+ 
+td-card img {
+    padding:10px;
+    height: 258px;
+    width: 100%;
+    border-radius: 6px;
+}
+ 
+/* Overlay styling*/
+ 
+.overlayBox {
+    position: absolute;
+    left: 50%;
+    height: 98%;
+    width: 100%;
+    top: -80px;
+    opacity: 0;
+    margin: 80px 0 0 -149px;
+}
+ 
+.boxed {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 30px;
+}
+ 
+.yes-text {
+    background-color: rgba(0,256,0,0.3);
+}
+ 
+.yesBox {
+    margin: 10% 60% 0% 10%;
+    border: 2px solid #00FF00;
+    color: rgb(0, 256, 0);
+    -webkit-transform: rotate(-25deg);
+}
+ 
+.no-text {
+    background-color: rgba(256,0,0,0.3);
+}
+ 
+.noBox {
+    margin: 10% 10% 0% 60%;
+    border: 2px solid #FF0000;
+    color: rgb(256, 0, 0);
+    -webkit-transform: rotate(25deg);
+}
+ 
+.fade {
+  -webkit-transition: 0.2s opacity linear;
+  transition: 0.2s opacity linear;
+  opacity: 0;
+}
+
+.bar .title {
+  text-align: left;
+}
+
+.item-checkbox-right .checkbox input,
+.item-checkbox-right .checkbox-icon {
+  float: right;
+}
+
+.item-checkbox.item-checkbox-right {
+  /*the default item padding*/
+  padding: 15px;
+}

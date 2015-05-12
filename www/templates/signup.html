@@ -1,0 +1,41 @@
+<ion-pane>
+<div ng-controller="SignupCtrl" ng-click="checkUser()">
+  <ion-content class="loginform padding" scroll="false">
+    <center>
+    <h1 class="form">Create an account</h1>
+    <br>
+    <img src="img/user.png">
+    <br>
+    <br>
+      <div class="list">
+        <label class="item item-input center">
+          <input type="text" ng-model="firstName" placeholder="First Name">
+        </label>
+        <label class="item item-input center">
+          <input type="text" ng-model="lastName" placeholder="Last Name">
+        </label>      
+        <label class="item item-input center">
+          <input type="text" ng-model="email" placeholder="Email">
+        </label>
+        <label class="item item-input center">
+          <input type="password" ng-model="password" placeholder="Password">
+        </label>
+          <br>
+          
+          <!-- Create User -->
+         <!--  <button class="button center button-positive" ng-click="createUser(firstName, lastName, email, password)">
+            Sign Up
+          </button> -->
+          
+          <!-- Development, just links to main.html -->
+           <button class="button center button-positive" ng-click="createUser(firstName, lastName, email, password)">
+            Sign Up
+          </button>
+
+
+      </div>
+    </center>
+  </ion-content>
+</div>
+</ion-pane>
+
